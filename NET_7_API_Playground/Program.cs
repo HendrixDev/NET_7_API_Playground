@@ -1,3 +1,5 @@
+using NET_7_API_Playground.Data;
+using NET_7_API_Playground.Endpoints;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,12 +12,15 @@ var logger = new LoggerConfiguration()
 builder.Logging.ClearProviders();
 builder.Logging.AddSerilog(logger);
 
-builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddTransient<IBookRepository, BookRepository>();
+
 var app = builder.Build();
+
+app.MapBookEndpoints();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -23,9 +28,5 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseAuthorization();
-
-app.MapControllers();
 
 app.Run();

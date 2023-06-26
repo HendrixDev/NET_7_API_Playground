@@ -14,4 +14,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NET_7_API_Playground.Models\NET_7_API_Playground.Models.csproj" />
+  </ItemGroup>
+
 </Project>
