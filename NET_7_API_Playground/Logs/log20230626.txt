@@ -1,0 +1,217 @@
+[2023-06-26 01:42:41.743 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 01:42:41.778 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 01:42:41.778 +00:00  Information]  Hosting environment: Development
+[2023-06-26 01:42:41.779 +00:00  Information]  Content root path: /app
+[2023-06-26 01:42:42.244 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger - -
+[2023-06-26 01:42:42.310 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger - - - 301 0 - 68.2018ms
+[2023-06-26 01:42:42.320 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 01:42:42.397 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 75.5613ms
+[2023-06-26 01:42:42.408 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui.css - -
+[2023-06-26 01:42:42.410 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-bundle.js - -
+[2023-06-26 01:42:42.440 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-standalone-preset.js - -
+[2023-06-26 01:42:42.474 +00:00  Information]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2023-06-26 01:42:42.476 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui.css - - - 200 143943 text/css 67.8144ms
+[2023-06-26 01:42:42.490 +00:00  Information]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2023-06-26 01:42:42.491 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 50.8951ms
+[2023-06-26 01:42:42.569 +00:00  Information]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2023-06-26 01:42:42.571 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 160.2609ms
+[2023-06-26 01:42:42.866 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 01:42:42.881 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/favicon-32x32.png - -
+[2023-06-26 01:42:42.882 +00:00  Information]  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2023-06-26 01:42:42.884 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/favicon-32x32.png - - - 200 628 image/png 3.4164ms
+[2023-06-26 01:42:42.954 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.7642ms
+[2023-06-26 01:42:50.017 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/WeatherForecast - -
+[2023-06-26 01:42:50.021 +00:00  Information]  Executing endpoint 'NET_7_API_Playground.Controllers.WeatherForecastController.Get (NET_7_API_Playground)'
+[2023-06-26 01:42:50.031 +00:00  Information]  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[NET_7_API_Playground.WeatherForecast] Get() on controller NET_7_API_Playground.Controllers.WeatherForecastController (NET_7_API_Playground).
+[2023-06-26 01:42:50.033 +00:00  Information]  Getting Weather Forecast
+[2023-06-26 01:42:50.037 +00:00  Information]  Executing ObjectResult, writing value of type 'NET_7_API_Playground.WeatherForecast[]'.
+[2023-06-26 01:42:50.047 +00:00  Information]  Executed action NET_7_API_Playground.Controllers.WeatherForecastController.Get (NET_7_API_Playground) in 13.0898ms
+[2023-06-26 01:42:50.050 +00:00  Information]  Executed endpoint 'NET_7_API_Playground.Controllers.WeatherForecastController.Get (NET_7_API_Playground)'
+[2023-06-26 01:42:50.051 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/WeatherForecast - - - 200 - application/json;+charset=utf-8 32.9184ms
+[2023-06-26 02:12:09.115 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 02:12:09.146 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 02:12:09.147 +00:00  Information]  Hosting environment: Development
+[2023-06-26 02:12:09.148 +00:00  Information]  Content root path: /app
+[2023-06-26 02:12:09.457 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 02:12:09.544 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 87.9929ms
+[2023-06-26 02:12:09.986 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 02:12:09.991 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 02:12:10.006 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 20.4670ms
+[2023-06-26 02:13:23.251 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 02:13:23.285 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 02:13:23.286 +00:00  Information]  Hosting environment: Development
+[2023-06-26 02:13:23.287 +00:00  Information]  Content root path: /app
+[2023-06-26 02:13:23.652 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 02:13:23.745 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 94.7343ms
+[2023-06-26 02:13:24.099 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 02:13:24.105 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 02:13:24.123 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 23.5422ms
+[2023-06-26 02:15:24.409 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 02:15:24.440 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 02:15:24.441 +00:00  Information]  Hosting environment: Development
+[2023-06-26 02:15:24.442 +00:00  Information]  Content root path: /app
+[2023-06-26 02:15:24.874 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 02:15:25.009 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 136.9312ms
+[2023-06-26 02:15:25.370 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 02:15:25.375 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 02:15:25.471 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.6649ms
+[2023-06-26 02:15:29.547 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books - -
+[2023-06-26 02:15:29.553 +00:00  Information]  Executing endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 02:15:29.588 +00:00  Information]  Setting HTTP status code 200.
+[2023-06-26 02:15:29.590 +00:00  Information]  Writing value of type 'BookData' as Json.
+[2023-06-26 02:15:29.599 +00:00  Information]  Executed endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 02:15:29.600 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books - - - 200 - application/json;+charset=utf-8 52.6927ms
+[2023-06-26 02:17:48.291 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 02:17:48.324 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 02:17:48.325 +00:00  Information]  Hosting environment: Development
+[2023-06-26 02:17:48.326 +00:00  Information]  Content root path: /app
+[2023-06-26 02:17:48.659 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 02:17:48.785 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 127.5704ms
+[2023-06-26 02:17:49.138 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 02:17:49.143 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 02:17:49.259 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.6182ms
+[2023-06-26 02:17:55.702 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books - -
+[2023-06-26 02:17:55.708 +00:00  Information]  Executing endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 02:17:55.727 +00:00  Information]  Setting HTTP status code 200.
+[2023-06-26 02:17:55.728 +00:00  Information]  Writing value of type 'BookData' as Json.
+[2023-06-26 02:17:55.737 +00:00  Information]  Executed endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 02:17:55.738 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books - - - 200 - application/json;+charset=utf-8 35.4749ms
+[2023-06-26 02:24:50.585 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 02:24:50.625 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 02:24:50.626 +00:00  Information]  Hosting environment: Development
+[2023-06-26 02:24:50.627 +00:00  Information]  Content root path: /app
+[2023-06-26 02:24:51.042 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 02:24:51.204 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 160.7030ms
+[2023-06-26 02:24:51.596 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 02:24:51.609 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 02:24:51.705 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.4611ms
+[2023-06-26 02:25:23.018 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 02:25:23.052 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 02:25:23.052 +00:00  Information]  Hosting environment: Development
+[2023-06-26 02:25:23.053 +00:00  Information]  Content root path: /app
+[2023-06-26 02:25:23.362 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 02:25:23.561 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 199.5912ms
+[2023-06-26 02:25:23.917 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 02:25:23.923 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 02:25:23.992 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.3456ms
+[2023-06-26 02:25:29.092 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books/1 - -
+[2023-06-26 02:25:29.100 +00:00  Information]  Executing endpoint 'HTTP: GET /books/{id} => GetBookById'
+[2023-06-26 02:25:29.137 +00:00  Information]  Setting HTTP status code 200.
+[2023-06-26 02:25:29.139 +00:00  Information]  Writing value of type 'Book' as Json.
+[2023-06-26 02:25:29.144 +00:00  Information]  Executed endpoint 'HTTP: GET /books/{id} => GetBookById'
+[2023-06-26 02:25:29.145 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books/1 - - - 200 - application/json;+charset=utf-8 52.6153ms
+[2023-06-26 02:53:49.786 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 02:53:49.819 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 02:53:49.820 +00:00  Information]  Hosting environment: Development
+[2023-06-26 02:53:49.820 +00:00  Information]  Content root path: /app
+[2023-06-26 02:53:50.175 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 02:53:50.369 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 195.9618ms
+[2023-06-26 02:53:50.736 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 02:53:50.742 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 02:53:50.811 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.5873ms
+[2023-06-26 02:54:34.541 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 02:54:34.573 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 02:54:34.574 +00:00  Information]  Hosting environment: Development
+[2023-06-26 02:54:34.575 +00:00  Information]  Content root path: /app
+[2023-06-26 02:54:34.934 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 02:54:35.132 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 199.5051ms
+[2023-06-26 02:54:35.491 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 02:54:35.497 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 02:54:35.571 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.4025ms
+[2023-06-26 02:54:45.698 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books - -
+[2023-06-26 02:54:45.705 +00:00  Information]  Executing endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 02:54:58.195 +00:00  Information]  Executed endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 02:54:58.196 +00:00  Error]  An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NET_7_API_Playground.Endpoints.BooksEndpoints.GetAllBooks() in C:\Users\m374l\source\repos\NET_7_API_Playground\NET_7_API_Playground\Endpoints\BooksEndpoints.cs:line 18
+   at lambda_method2(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-06-26 02:54:58.214 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books - - - 500 - text/plain;+charset=utf-8 12513.7111ms
+[2023-06-26 02:59:54.483 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 02:59:54.515 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 02:59:54.516 +00:00  Information]  Hosting environment: Development
+[2023-06-26 02:59:54.517 +00:00  Information]  Content root path: /app
+[2023-06-26 02:59:54.844 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 02:59:55.043 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 200.6071ms
+[2023-06-26 02:59:55.410 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 02:59:55.419 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 02:59:55.489 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.8444ms
+[2023-06-26 03:00:01.991 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books - -
+[2023-06-26 03:00:01.998 +00:00  Information]  Executing endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 03:00:02.016 +00:00  Information]  Setting HTTP status code 200.
+[2023-06-26 03:00:02.018 +00:00  Information]  Writing value of type 'List`1' as Json.
+[2023-06-26 03:00:02.024 +00:00  Information]  Executed endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 03:00:02.025 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books - - - 200 - application/json;+charset=utf-8 33.2404ms
+[2023-06-26 03:00:20.925 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books - -
+[2023-06-26 03:00:20.925 +00:00  Information]  Executing endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 03:00:20.926 +00:00  Information]  Setting HTTP status code 200.
+[2023-06-26 03:00:20.927 +00:00  Information]  Writing value of type 'List`1' as Json.
+[2023-06-26 03:00:20.929 +00:00  Information]  Executed endpoint 'HTTP: GET /books => GetAllBooks'
+[2023-06-26 03:00:20.930 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books - - - 200 - application/json;+charset=utf-8 4.8791ms
+[2023-06-26 04:22:07.431 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 04:22:07.463 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 04:22:07.464 +00:00  Information]  Hosting environment: Development
+[2023-06-26 04:22:07.464 +00:00  Information]  Content root path: /app
+[2023-06-26 04:22:07.809 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 04:22:08.035 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 227.5181ms
+[2023-06-26 04:22:08.393 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 04:22:08.399 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 04:22:08.458 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.9617ms
+[2023-06-26 04:22:11.306 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books - -
+[2023-06-26 04:22:11.313 +00:00  Information]  Executing endpoint 'HTTP: GET /books'
+[2023-06-26 04:22:11.349 +00:00  Information]  Getting All Books
+[2023-06-26 04:22:11.352 +00:00  Information]  Setting HTTP status code 200.
+[2023-06-26 04:22:11.354 +00:00  Information]  Writing value of type 'List`1' as Json.
+[2023-06-26 04:22:11.360 +00:00  Information]  Executed endpoint 'HTTP: GET /books'
+[2023-06-26 04:22:11.361 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books - - - 200 - application/json;+charset=utf-8 54.0054ms
+[2023-06-26 04:22:29.077 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books - -
+[2023-06-26 04:22:29.078 +00:00  Information]  Executing endpoint 'HTTP: GET /books'
+[2023-06-26 04:22:34.716 +00:00  Information]  Getting All Books
+[2023-06-26 04:22:37.567 +00:00  Information]  Setting HTTP status code 200.
+[2023-06-26 04:22:37.567 +00:00  Information]  Writing value of type 'List`1' as Json.
+[2023-06-26 04:22:37.569 +00:00  Information]  Executed endpoint 'HTTP: GET /books'
+[2023-06-26 04:22:37.570 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books - - - 200 - application/json;+charset=utf-8 8492.1858ms
+[2023-06-26 04:23:42.039 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books/{id} - -
+[2023-06-26 04:23:42.040 +00:00  Information]  Executing endpoint 'HTTP: GET /books/{id}'
+[2023-06-26 04:23:46.123 +00:00  Information]  Executed endpoint 'HTTP: GET /books/{id}'
+[2023-06-26 04:23:46.126 +00:00  Error]  An unhandled exception has occurred while executing the request.
+System.FormatException: The input string '{id}' was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, ReadOnlySpan`1 value, TypeCode type)
+   at System.Int32.Parse(String s)
+   at NET_7_API_Playground.Endpoints.BooksEndpoints.<>c.<MapBookEndpoints>b__0_1(IBookRepository bookRepository, HttpContext httpContext) in C:\Users\m374l\source\repos\NET_7_API_Playground\NET_7_API_Playground\Endpoints\BooksEndpoints.cs:line 20
+   at lambda_method3(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-06-26 04:23:46.143 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books/{id} - - - 500 - text/plain;+charset=utf-8 4103.5483ms
+[2023-06-26 04:25:05.441 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 04:25:05.476 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 04:25:05.478 +00:00  Information]  Hosting environment: Development
+[2023-06-26 04:25:05.478 +00:00  Information]  Content root path: /app
+[2023-06-26 04:25:05.876 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 04:25:06.077 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 202.6310ms
+[2023-06-26 04:25:06.446 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 04:25:06.453 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 04:25:06.513 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.9395ms
+[2023-06-26 04:27:15.761 +00:00  Information]  Now listening on: http://[::]:80
+[2023-06-26 04:27:15.794 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-06-26 04:27:15.796 +00:00  Information]  Hosting environment: Development
+[2023-06-26 04:27:15.797 +00:00  Information]  Content root path: /app
+[2023-06-26 04:27:16.139 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-06-26 04:27:16.305 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 168.1430ms
+[2023-06-26 04:27:16.740 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-06-26 04:27:16.747 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-06-26 04:27:16.825 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.5393ms
+[2023-06-26 04:27:22.513 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books/1 - -
+[2023-06-26 04:27:22.522 +00:00  Information]  Executing endpoint 'HTTP: GET /books/{id}'
+[2023-06-26 04:27:22.536 +00:00  Information]  Getting Book with Id: 1
+[2023-06-26 04:27:22.539 +00:00  Information]  Setting HTTP status code 200.
+[2023-06-26 04:27:22.541 +00:00  Information]  Writing value of type 'Book' as Json.
+[2023-06-26 04:27:22.546 +00:00  Information]  Executed endpoint 'HTTP: GET /books/{id}'
+[2023-06-26 04:27:22.547 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books/1 - - - 200 - application/json;+charset=utf-8 33.5783ms
