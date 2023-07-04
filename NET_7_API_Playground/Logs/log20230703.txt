@@ -14,3 +14,26 @@
 [2023-07-03 02:01:41.903 +00:00  Information]  Writing value of type 'Book' as Json.
 [2023-07-03 02:01:41.908 +00:00  Information]  Executed endpoint 'HTTP: GET /books/{id}'
 [2023-07-03 02:01:41.910 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books/3 - - - 200 - application/json;+charset=utf-8 55.0585ms
+[2023-07-03 02:10:47.975 +00:00  Information]  Now listening on: http://[::]:80
+[2023-07-03 02:10:48.008 +00:00  Information]  Application started. Press Ctrl+C to shut down.
+[2023-07-03 02:10:48.010 +00:00  Information]  Hosting environment: Development
+[2023-07-03 02:10:48.010 +00:00  Information]  Content root path: /app
+[2023-07-03 02:10:48.391 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - -
+[2023-07-03 02:10:48.582 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - - - 200 - text/html;charset=utf-8 194.4163ms
+[2023-07-03 02:10:48.937 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - -
+[2023-07-03 02:10:48.943 +00:00  Information]  No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2023-07-03 02:10:49.010 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.0269ms
+[2023-07-03 02:10:52.449 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books - -
+[2023-07-03 02:10:52.457 +00:00  Information]  Executing endpoint 'HTTP: GET /books'
+[2023-07-03 02:10:52.489 +00:00  Information]  Getting All Books
+[2023-07-03 02:10:52.493 +00:00  Information]  Setting HTTP status code 200.
+[2023-07-03 02:10:52.495 +00:00  Information]  Writing value of type 'List`1' as Json.
+[2023-07-03 02:10:52.500 +00:00  Information]  Executed endpoint 'HTTP: GET /books'
+[2023-07-03 02:10:52.501 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books - - - 200 - application/json;+charset=utf-8 51.2900ms
+[2023-07-03 02:11:06.326 +00:00  Information]  Request starting HTTP/1.1 GET http://localhost:32768/books/2 - -
+[2023-07-03 02:11:06.327 +00:00  Information]  Executing endpoint 'HTTP: GET /books/{id}'
+[2023-07-03 02:11:06.329 +00:00  Information]  Getting Book with Id: 2
+[2023-07-03 02:11:06.330 +00:00  Information]  Setting HTTP status code 200.
+[2023-07-03 02:11:06.330 +00:00  Information]  Writing value of type 'Book' as Json.
+[2023-07-03 02:11:06.331 +00:00  Information]  Executed endpoint 'HTTP: GET /books/{id}'
+[2023-07-03 02:11:06.331 +00:00  Information]  Request finished HTTP/1.1 GET http://localhost:32768/books/2 - - - 200 - application/json;+charset=utf-8 5.2026ms

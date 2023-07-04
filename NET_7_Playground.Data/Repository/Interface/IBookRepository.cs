@@ -1,4 +1,4 @@
-﻿using NET_7_API_Playground.Models;
+﻿using NET_7_API_Playground.Entities.Models;
 
 namespace NET_7_API_Playground.Data
 {
@@ -6,5 +6,6 @@ namespace NET_7_API_Playground.Data
     {
         public List<Book> GetBooks();
         public Book GetBook(int id);
+        public int CreateBookReturnsId(Book book);
     }
 }
