@@ -7,21 +7,31 @@ namespace NET_7_API_Playground.Endpoints
     {
         public static void MapBookEndpoints(this WebApplication application)
         {
-            application.MapGet("/books", (IBookRepository bookRepository) =>
-            {
-                return Results.Ok(bookRepository.GetBooks());
-            }).WithName("GetBooks").WithOpenApi();
+            application.MapGet("/books", GetBooks).WithName("GetBooks").WithOpenApi();
+            application.MapGet("/books/{id}", GetBookById).WithName("GetBooksById").WithOpenApi();
+            application.MapPost("/books", CreateBook).WithName("CreateBook").WithOpenApi();
+        }
 
-            application.MapGet("/books/{id}", (int id, IBookRepository bookRepository) =>
-            {
-                var book = bookRepository.GetBook(id);
-                return Results.Ok(book);
-            }).WithName("GetBookById").WithOpenApi();
+        public static void AddBookServices(this IServiceCollection services)
+        {
+            services.AddSingleton<IBookRepository, BookRepository>();
+        }
 
-            application.MapPost("/books/", (Book book, IBookRepository bookRepository) =>
-            {
-                Results.Ok(bookRepository.CreateBookReturnsId(book));
-            }).WithName("CreateBook").WithOpenApi();
+        internal static List<Book> GetBooks(IBookRepository bookRepository)
+        {
+            return bookRepository.GetBooks();
+        }
+
+        internal static IResult GetBookById(IBookRepository bookRepository, int id)
+        { 
+            var book = bookRepository.GetBook(id);
+            return book != null ? Results.Ok(book) : Results.NotFound();
+        }
+
+        internal static IResult CreateBook(IBookRepository bookRepository, Book book)
+        { 
+            int id = bookRepository.CreateBookReturnsId(book);
+            return id != 0 ? Results.Ok(id) : Results.NotFound();
         }
     }
 }

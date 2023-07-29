@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET_7_API_Playground", "NET
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET_7_API_Playground.Entities", "NET_7_API_Playground.Models\NET_7_API_Playground.Entities.csproj", "{395DBF4A-4E5C-47DC-A0B0-DE3E2B31BEA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET_7_Playground.Data", "NET_7_Playground.Data\NET_7_Playground.Data.csproj", "{2E837D37-738E-4181-BCCF-044607ACD7A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET_7_Playground.Data", "NET_7_Playground.Data\NET_7_Playground.Data.csproj", "{2E837D37-738E-4181-BCCF-044607ACD7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET_7_API_Playground.Tests", "NET_7_API_Playground.Tests\NET_7_API_Playground.Tests.csproj", "{C8F08A81-8DA4-4031-A7AC-88FA5C0D237D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2E837D37-738E-4181-BCCF-044607ACD7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E837D37-738E-4181-BCCF-044607ACD7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E837D37-738E-4181-BCCF-044607ACD7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F08A81-8DA4-4031-A7AC-88FA5C0D237D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F08A81-8DA4-4031-A7AC-88FA5C0D237D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F08A81-8DA4-4031-A7AC-88FA5C0D237D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F08A81-8DA4-4031-A7AC-88FA5C0D237D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

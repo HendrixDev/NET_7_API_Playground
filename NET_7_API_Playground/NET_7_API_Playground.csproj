@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -23,4 +23,8 @@
     <ProjectReference Include="..\NET_7_Playground.Data\NET_7_Playground.Data.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<InternalsVisibleTo Include="NET_7_API_Playground.Tests"/>
+	</ItemGroup>
+	
 </Project>
